@@ -154,8 +154,7 @@ li a:hover {
   color: var(--primary-green);
 }
 header {
-  background-color: var(--night-netral);
-  height: 600px;
+  background-color: var(--charcoal-netral);
   padding: 16px;
 }
 
@@ -163,44 +162,9 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.hero {
-  color: var(--magnolia-netral);
-  font-family: "Plus Jakarta Sans";
-}
-h2 span {
-  color: var(--primary-green);
-}
 #logo {
   font-family: "Plus Jakarta Sans";
   color: var(--magnolia-netral);
   font-weight: 800;
   font-size: 18px;
-}
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 32px;
-  padding-right: 32px;
-  align-items: center;
-  gap: 40px;
-}
-.hero-title {
-  width: 50%;
-}
-.hero-title h1 {
-  font-size: 40px;
-}
-.hero-title h2 {
-  margin-top: 20px;
-  font-size: 24px;
-  width: 75%;
-}
-main {
-  height: 100px;
-  background-color: var(--magnolia-netral);
-}
-
-footer {
-  height: 200px;
-  background-color: var(--night-netral);
 }
