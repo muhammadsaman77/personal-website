@@ -1,8 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -154,8 +151,7 @@ li a:hover {
   color: var(--primary-green);
 }
 header {
-  background-color: var(--night-netral);
-  height: 600px;
+  background-color: var(--charcoal-netral);
   padding: 16px;
 }
 
@@ -163,76 +159,18 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.hero {
-  color: var(--magnolia-netral);
-  font-family: "Plus Jakarta Sans";
-}
-h2 span {
-  color: var(--primary-green);
-}
 #logo {
   font-family: "Plus Jakarta Sans";
   color: var(--magnolia-netral);
   font-weight: 800;
   font-size: 18px;
 }
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 32px;
-  padding-right: 32px;
-  align-items: center;
-  gap: 40px;
-}
-.hero-title {
-  width: 50%;
-}
-.hero-title h1 {
-  font-size: 40px;
-}
-.hero-title h2 {
-  margin-top: 20px;
-  font-size: 24px;
-  width: 75%;
-}
-main {
+
+body {
   background-color: var(--night-netral);
-  padding-top: 32px;
-}
-
-footer {
-  background-color: var(--charcoal-netral);
-}
-footer p {
-  text-align: center;
-}
-p {
-  color: var(--magnolia-netral);
-  font-family: "Plus Jakarta Sans";
-  font-size: 16px;
-}
-
-.cta {
-  margin-top: 16px;
-  background-color: var(--primary-green);
-  padding: 8px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-
-  color: var(--magnolia-netral);
-}
-.cta:hover {
-  cursor: pointer;
-}
-
-footer {
-  background-color: var(--charcoal-netral);
-}
-footer p {
-  padding: 6px;
-  text-align: center;
 }
 .container {
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -278,11 +216,11 @@ footer p {
 }
 
 .project {
-  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
-  margin-left: 42px;
+  justify-content: center;
   gap: 80px;
+  margin-top: 10px;
 }
 
 .experince h1 {
@@ -290,7 +228,7 @@ footer p {
   text-align: left;
   color: #f3eff5;
   margin-left: 42px;
-  margin-bottom: 20px;
+  margin-top: 32px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -300,6 +238,7 @@ footer p {
   color: #f3eff5;
   margin-left: 45px;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 16px;
 }
 
@@ -307,7 +246,6 @@ footer p {
   font-family: "Plus Jakarta Sans";
   font-size: 14px;
   margin-top: 10px;
-  color: var(--night-netral);
   margin-bottom: 10px;
 }
 
@@ -316,4 +254,8 @@ footer p {
   text-align: center;
   font-weight: 900;
   margin-top: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
 }
